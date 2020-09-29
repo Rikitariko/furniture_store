@@ -1,0 +1,70 @@
+.side-bar {
+  display: none;
+}
+
+.side-bar.active {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 100%;
+  background: #0F2A43;
+}
+.project-tab {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+}
+.project-tab.active {
+  border-right: 5px solid #5298D9
+};
+
+.project-name, .project-room {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.project-name {
+  height: 75px;
+  padding: 0 30px 0;
+  span, img{
+    opacity: 0.5;
+  }
+}
+.project-name.active {
+  span, img{
+    opacity: 1;
+  }
+}
+
+.project-room {
+  background: #233A53;
+  height: 55px;
+  padding: 0 75px 0;
+  span, img{
+    opacity: 0.5;
+  }
+}
+
+.project-room.active {
+  span, img{
+    opacity: 1;
+  }
+}
+.project-icon{
+  img {
+    height: 17px;
+  }
+  height: 19px;
+  padding-right: 23px;
+}
+.room-icon {
+  height: 21px;
+  display: flex;
+
+  padding-right: 20px;
+}

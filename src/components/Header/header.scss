@@ -1,0 +1,46 @@
+.header {
+  box-sizing: border-box;
+  padding: 0 25px 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+  background: white;
+}
+
+.header-right{
+  display: flex;
+  width: 117px;
+  margin: 0;
+}
+
+.logo, .login-box, .side-bar-icon-box {
+  padding: 14px 0 14px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.login-box{
+  padding-right: 30px;
+}
+
+.side-bar-icon-box {
+  padding: 27px 0 27px;
+}
+
+.logo-img, .login-icon {
+  height: 50px;
+}
+
+.login-icon {
+  border-radius: 100px;
+}
+
+.side-bar-icon {
+  height: 25px;
+  width: 30px;
+  background-color: #353440;
+  -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 14%, 0 14%, 0 28%, 100% 28%, 100% 42%, 0 42%, 0 56%, 100% 56%, 100% 70%, 0 70%, 0 84%, 100% 84%, 100% 98%, 0 98%);
+  clip-path: polygon(0 0%, 100% 0%, 100% 14%, 0 14%, 0 28%, 100% 28%, 100% 42%, 0 42%, 0 56%, 100% 56%, 100% 70%, 0 70%, 0 84%, 100% 84%, 100% 98%, 0 98%);
+}
